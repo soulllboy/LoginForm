@@ -1,0 +1,121 @@
+body {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F2F2F2;
+  font-family: Inter;
+}
+i {
+  color: #D9D9D9;
+  display:inline-block;
+  position: absolute;
+  top:12px;
+  left:12px;
+}
+input {
+  border: 1px solid #D9D9D9;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 6px 8px 38px;
+}
+input::placeholder {
+  color: #BFBFBF;
+}
+img {
+  position:absolute;
+  display: block;
+}
+.cont_fabs {
+  position:relative;
+}
+.tiny {
+  top:14px;
+  right:14px;
+  width:20px;
+}
+.logo {
+  top: 41.25px;
+  left: 70px;
+  width: 63.75px;
+  height: 37.5px;
+}
+.name {
+  Width 198.01px;
+  Height 32.25px;
+  top: 43.87px;
+  right: 68.49px;
+  
+}
+.container_f {  
+  position:relative;
+  width: 512px;
+  height: 496px;
+  padding: 48px 64px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(51, 51, 51, 0.15);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+}
+.lnk {
+  color: rgba(232, 32, 53, 0.6);
+  text-align: right;
+}
+.txt1 {
+  font-size: 14px;
+  line-height: 22px;
+}
+.txt2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+.rec_h {
+  Width: 384px;
+  Height: 40px;
+  margin: 0 0 24px;
+  font-size: 16px;
+  line-height: 24px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+.line_h {
+  Width: 384px;
+  Height: 24px;
+  margin: 0 0 24px;
+  font-size: 14px;
+  line-height: 22px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.emp_e {
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  text-decoration: none;
+  color: #595959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fill_e {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #E82035;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+[type="checkbox"] {
+  background: #E82035;
+  border: 1px solid #E82035;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
